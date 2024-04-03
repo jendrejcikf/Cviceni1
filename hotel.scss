@@ -1,0 +1,42 @@
+$primary: rgb(114, 5, 76);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+.ozdobne {
+  font-style: italic;
+}
+
+.ozdobne2 {
+  text-transform: uppercase;
+  color: $primary;
+}
+
+.sirka {
+  max-width: 500px;
+}
+.pozadi {
+  max-width: 100%;
+  background-image: url(./hotel0.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+}
+.text1 {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.text2 {
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+
+  font-family: "Imbue", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
